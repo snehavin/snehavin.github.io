@@ -11,6 +11,7 @@ export interface AboutMe {
   cvUrl?: string;
   twitterUsername?: string;
   githubUsername?: string;
+  googleScholarUrl?: string;
   linkedinUsername?: string;
   funDescription?: string; // Gets placed in the left sidebar
   secretDescription?: string; // Gets placed in the bottom
