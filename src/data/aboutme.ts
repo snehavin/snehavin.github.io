@@ -1,3 +1,5 @@
+import type { StaticImageData } from "next/image";
+
 import profileImage from "./images/profilepic1.jpeg";
 
 export interface AboutMe {
@@ -6,7 +8,7 @@ export interface AboutMe {
   institution: string;
   description: string;
   email: string;
-  imageUrl?: string;
+  imageUrl?: string | StaticImageData;
   blogUrl?: string;
   cvUrl?: string;
   twitterUsername?: string;
@@ -29,8 +31,8 @@ export const aboutMe: AboutMe = {
   email: "sneha22.vinod@gmail.com",
   imageUrl:
     profileImage,
-  linkedinUsername: "www.linkedin.com/in/snehavin",
-  cvUrl: "./SnehaVinod-GitResume.pdf",
+  linkedinUsername: "snehavin",
+  cvUrl: "/SnehaVinod-GitResume.pdf",
   // altName: "",
   // secretDescription: "I like dogs.",
 };
