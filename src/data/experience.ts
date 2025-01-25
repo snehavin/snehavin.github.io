@@ -10,21 +10,24 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Summer 2023",
-    title: "Research Intern",
-    company: "DeepMind",
+    date: "June 2024 - August 2024",
+    title: "Data Engineering Intern",
+    company: "Cadent",
     description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+      "Implemented Unity Catalog on Databricks to establish a unified data catalog and enable federated querying of external data sources, improving data security and reducing data querying costs.",
   },
   {
-    date: "Summer 2022",
-    title: "Research Intern",
-    company: "Google Research",
+    date: "March 2024 - May 2024",
+    title: "Data Science Intern",
+    company: "Cadent",
     description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+      "Optimized and deployed a probabilistic classification model into production to identify the likelihood of winning advertising bids. Conducted feature engineering and hyperparameter tuning to improve model performance.",
+  },
+  {
+    date: "June 2022 - September 2022",
+    title: "Market Development Intern",
+    company: "CommScope",
+    description:
+      "Developed a market development plan to increase market share through identifying untapped segments of the US market and local strategic partnerships.",
   },
 ];
