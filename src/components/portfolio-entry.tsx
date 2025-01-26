@@ -18,20 +18,7 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
       )}
       <div className="flex flex-col flex-1">
         <h3 className="font-serif text-md mb-3">
-          {portfolio.projectUrl ? (
-            <a
-              href={portfolio.projectUrl}
-              className="group inline-flex items-center gap-2 hover:text-zinc-600 transition-colors duration-300"
-            >
-              {portfolio.title}
-              <ArrowUpRight
-                size={16}
-                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
-              />
-            </a>
-          ) : (
-            portfolio.title
-          )}
+          {portfolio.title}
         </h3>
         
         {portfolio.date && (
