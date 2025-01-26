@@ -1,7 +1,7 @@
 export enum Section {
   Education = "education",
   Experience = "experience",
-  Portfolio = "portfolio",
+  Portfolio = "projects",
   Publication = "publication",
   News = "news",
 }

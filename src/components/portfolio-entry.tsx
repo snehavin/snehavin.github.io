@@ -33,6 +33,12 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
             portfolio.title
           )}
         </h3>
+        
+        {portfolio.date && (
+          <p className="test-xs text-zinc-500 mb-2">
+            {portfolio.date}
+          </p>
+        )}
 
         {portfolio.technologies && (
           <div className="flex gap-2 mb-4 flex-wrap">
