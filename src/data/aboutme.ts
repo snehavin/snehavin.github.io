@@ -25,7 +25,7 @@ export const aboutMe: AboutMe = {
   institution: "Santa Clara University",
   // Note that links work in the description
   description:
-    "I am a graduate student pursing a Master of Science in Information Systems at Santa Clara University, graduating in March 2025. With experience in machine learning, data engineering, and cloud technologies, I am eager to contribute to impactful solutions that bridge technology and business.",
+    "I recently graduated from Santa Clara University with a Masters of Science in Information Systems. With experience in data science, data engineering, and cloud technologies, I am eager to contribute to impactful solutions that bridge technology and business.",
   email: "sneha22.vinod@gmail.com",
   imageUrl: "/profilepic1.jpeg",
   linkedinUsername: "snehavin",
