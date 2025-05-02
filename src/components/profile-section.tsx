@@ -21,14 +21,15 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
   return (
     <div className="md:sticky top-12 flex flex-row-reverse md:flex-col gap-4 md:space-y-8">
       {aboutMe.imageUrl && (
-        <div className="w-1/3 md:w-full flex-shrink-0">
-          <div className="relative max-h-[45vh] md:w-[65%] aspect-[3/4]">
+        <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 rounded-full overflow-hidden">
+          <div className="relative w-full h-full">
             <Image
               src={aboutMe.imageUrl}
               alt={aboutMe.name}
-              fill
+              layout="fill"
+              objectFit="cover" // Ensures the image fills the circle
               priority
-              className="object-cover rounded-xl"
+              className="rounded-full"
             />
           </div>
         </div>
