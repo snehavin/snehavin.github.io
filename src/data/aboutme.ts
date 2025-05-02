@@ -27,7 +27,7 @@ export const aboutMe: AboutMe = {
   description:
     "I recently graduated from Santa Clara University with a Masters of Science in Information Systems. With experience in data science, data engineering, and cloud technologies, I am eager to contribute to impactful solutions that bridge technology and business.",
   email: "sneha22.vinod@gmail.com",
-  imageUrl: "/profilepic1.jpeg",
+  imageUrl: "/headshotscu.jpg",
   linkedinUsername: "snehavin",
   cvUrl: "/SnehaVinod-GitResume.pdf",
   // altName: "",
