@@ -43,6 +43,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${notoSerif.variable} ${ptSerif.variable} antialiased`}
       >
+        <header className="sticky top-0 z-50 bg-[#FFFCF8] shadow-sm">
+          <nav className="max-w-screen-lg mx-auto px-8 py-4 flex gap-6 text-sm text-zinc-600">
+            <a href="#education" className="hover:text-zinc-900">Education</a>
+            <a href="#experience" className="hover:text-zinc-900">Experience</a>
+            <a href="#portfolio" className="hover:text-zinc-900">Portfolio</a>
+          </nav>
+        </header>
         <main className="">{children}</main>
         <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-[#FFFCF8]">
           <div className="flex flex-row mx-auto max-w-7xl px-6 py-12 md:flex md:items-start md:justify-between ">
